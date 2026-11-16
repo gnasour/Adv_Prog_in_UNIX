@@ -20,7 +20,7 @@ main(void)
   write(temp_fd, "Test", 4);
   test_pos = lseek(temp_fd, 0, SEEK_CUR);
   printf("offset after second write: %ld\n", test_pos);
-  
+  pwrite(temp_fd, "TEST", 4, 5);
   lseek(temp_fd, 5, SEEK_SET);
 
   read(temp_fd, buf+5, 4);

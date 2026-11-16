@@ -11,6 +11,7 @@
 
 #include <sys/types.h>
 #include <sys/stat.h>
+#include <sys/sysmacros.h>
 #include <sys/termios.h>
 
 #if defined(MACOS) || !defined(TIOCGWINSZ)
