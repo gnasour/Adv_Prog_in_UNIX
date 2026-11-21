@@ -53,3 +53,13 @@ dkms.conf
 
 # debug information files
 *.dwo
+ch3/temp.txt
+ch4/#cp_w_holes.c#
+ch4/bar
+
+# emacs temp files
+*~
+ch4/foo
+ch4/new_file
+ch4/newer_file
+ch5/tmp
